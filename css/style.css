@@ -1,34 +1,173 @@
-table
+*
 {
-    margin-left: auto;margin-right: auto;
+    margin: 0;
+    border: 0;
+    outline: 0;
 }
-table,tr,td
+/* ID styles */
+#info_div
 {
-    border: 1px solid black;
+    /* padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 5%;
+    padding-right: 5%; */
+    padding: 20px 30px;
+    border-radius: 15px;
+    background-color: rgba(0,0,0, 0.4);
+    color: rgb(13, 1, 82);
+    /* opacity: .5; */
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
 }
-tr,td
+#info_div a
 {
-    padding: 5px;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    /* margin: 10px; */
+    padding: 5%;
+    width: 90%;
+    display: block;
+    border-radius: 7px;
 }
-tr
+#cancel-bt
 {
-    width: 100%;
+    margin-top: 10px;
 }
-td
+#fps
 {
-    width: 50%;
+    display: block;
+    /* float: right; */
+    text-align: right;
+    margin-top: 10px;
+    color: yellow;
 }
-input
+#signup-para
 {
     text-align: center;
+    color: white;
+}
+#signup-para a
+{
+    color: yellow;
+}
+#login-img
+{
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Class Styles */
+.heading1
+{
+    text-align: center;
+    margin-top: 2%;
+}
+.heading2
+{
+    text-align: center;
+    margin: 10px 5px;
+    color: white;
+}
+.btn1
+{
     width: 100%;
+    /* background-color: #f8810b; */
+    background-color: rgb(170, 207, 5);
+    color: rgb(117, 5, 93);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 9px;
+    border-radius: 7px;
+    font-size: 15px;
 }
-.btn-1
+.btn1:hover
 {
-    margin: 5px;
-    height: 25px;
+    background-color: rgb(209, 61, 61);
+    color: #fff;
+    transition: 0.6s;
+    cursor: pointer;
 }
-h4
+/* Reset Button */
+.btn2
 {
-    margin: 7px;
+    width: 100%;
+    background-color: rgb(207, 113, 5);
+    color: white;
+    margin-top: 10px;
+    /* margin-bottom: 10px; */
+    padding: 9px;
+    border-radius: 7px;
+    font-size: 15px;
+}
+.btn2:hover
+{
+    background-color: rgb(209, 61, 61);
+    color: #fff;
+    transition: 0.6s;
+    cursor: pointer;
+}
+.btn3
+{
+    background-color: rgb(207, 113, 5);
+    color: white;
+    display: block;
+    width: 100%;
+    padding: 5%;
+    margin-top: 10px;
+    border-radius: 7px;
+}
+.btn3:hover
+{
+    background-color: rgb(209, 61, 61);
+    color: #fff;
+    transition: 0.6s;
+    cursor: pointer;
+}
+.btn4
+{
+    width: 40%;
+    background-color: rgb(69, 207, 5);
+    color: white;
+    display: block;
+}
+.input-field
+{
+    width: 95%;
+    height: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    padding-left: 5%;
+    border-radius: 7px;
+}
+/* Element Selector */
+body
+{
+    background-color: rgb(212, 195, 150);
+    background-image: url("../images/bg.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+fieldset
+{
+    border: 1px solid black;
+    /* margin-bottom: 15px; */
+    /* background-color: white; */
+}
+legend
+{
+    color: yellow;
 }
